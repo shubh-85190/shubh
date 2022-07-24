@@ -1,0 +1,110 @@
+.menu li {
+    display: inline;
+}
+
+body {
+    text-align: center;
+}
+
+div .header {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(61, 11, 63);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+li a {
+    /* margin: ; */
+    text-decoration: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    color: white;
+}
+
+li a:hover {
+    background-color: rgb(212, 40, 14);
+    color: rgb(0, 255, 0);
+}
+
+.footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+}
+
+div .main {
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100vh;
+}
+
+.about p {
+    /* display: inline-block; */
+    text-align: justify;
+    padding-left: 15%;
+    font-size: larger;
+    padding-right: 15%;
+}
+
+.boxes {
+    height: 100%;
+    align-items: center;
+    width: 80%;
+    display: inline-block;
+    /* background-color: rgba(20, 255, 177, 0.5); */
+}
+
+.login,
+.singup {
+    /* float: left; */
+    margin: 0 20% 0 20%;
+    background-color: teal;
+    /* height: 10px; */
+    font-size: 20px;
+    padding: 5% 10% 5% 10%;
+    /* align-content: center; */
+    /* border-right: rgb(117, 83, 83) solid 2px; */
+    /* width: 40%; */
+}
+
+div.about h2 {
+    top: 0px;
+}
+
+input {
+    border: 2px rgb(16, 191, 235) solid;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(232, 233, 232);
+}
+
+input.button {
+    display: inline-block;
+    background-color: rgb(32, 200, 212);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+}
+
+input.button:hover {
+    display: inline-block;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: black;
+}
