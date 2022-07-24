@@ -13,11 +13,6 @@ const server = http.createServer(
         res.write(html1);
         res.write("<button type='submit'>Submit</button>");
         res.end("Thank you");
-        console.log(req.url);
-        const urlob = url.parse(req.url, true);
-        console.log(urlob);
-        console.log(urlob.query.firstname);
-        console.log(urlob.query.secondname);
     }
 )
 
